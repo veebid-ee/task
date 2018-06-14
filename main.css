@@ -1,0 +1,82 @@
+@media only screen and (max-width: 51.2rem) {
+    .featured_container .featured_heading {
+        padding: 0 2.2rem !important;
+    }
+    .featured_container .featured_subheading {
+        padding: 0 3.6rem 0 2.2rem !important;
+    }
+    .featured_container .featured-pagination {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .featured_container .featured-pagination span {
+        display: inline-block;
+        width: 0.8rem;
+        height: 0.8rem;
+        background-color: transparent;
+        margin: 0.5rem;
+        border-radius: 50%;
+        border: 0.1rem solid black;
+        cursor: pointer;
+    }
+    .featured_container .article_thumb_content {
+        height: 44rem !important;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: black !important;
+    }
+    .featured_container .featured_content {
+        width: 100% !important;
+    }
+    .featured_container .swiper-slide {
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .featured_container .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .featured_container .swiper-container {
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 38.2rem) {
+    .featured_container .article_thumb_content {
+        height: 39rem !important;
+    }
+}
